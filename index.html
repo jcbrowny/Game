@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors EX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">User</div>
+      <div id="computer-label" class="badge">Comp</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers Rock, you win!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="p">
+       <!-- Put image of paper here -->
+        <img src="images/paper.JPG" alt="">
+
+      </div>
+      <div class="choice" id="r">
+        <!-- Put image of Rock here -->
+        <img src="images/rock.JPG" alt="">
+
+      </div>
+      <div class="choice" id="s">
+        <!-- Put image of Scissors here -->
+        <img src="images/scissors.JPG" alt="">
+
+      </div>
+    </div>
+
+    <p id="action-message">Make your choice</p>
+  </body>
+</html>

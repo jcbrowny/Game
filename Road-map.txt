@@ -1,0 +1,35 @@
+road map:
+
+
+
+  header:
+    name of game:
+    Final Fantasy primal rock paper scissors
+
+  body:
+    score
+    result:
+      i.e titan beats garuda
+    player choice
+    images of choices:
+      pictures of the primal's
+
+  footer:
+    made by yours truly
+
+
+
+  extra stuff
+  difficulty - normal - hard - extreme
+
+
+
+Finished:
+  weekend:
+    made the basic version of the game
+    encountered some difficulty but made it work
+
+To do
+  Monday:
+    make the instructions and control page
+    
