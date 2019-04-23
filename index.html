@@ -2,10 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Rock Paper Scissors EX</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js" charset="utf-8"></script>
+    <title>Rock Paper Scissors</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Local js & css-->
+    <script src="js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -41,5 +47,22 @@
     </div>
 
     <p id="action-message">Make your choice</p>
+    <br>
+    <p>Welcome to rock paper scissors. Click your image to make your choice. If you find the base version easy please by all means try the Hard or Extereme version.</p>
+    <br>
+    <footer>
+
+      <div class="container">
+
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <button class="btn btn-sm btn-outline-success" type="button"><a href="pages/page1.html">Hard</a> </button>
+            <form class="form-inline">
+            <button class="btn btn-sm btn-outline-success" type="button"> <a href="pages/page2.html">Extreme</a> </button>
+          </form>
+        </nav>
+
+      </div>
+
+    </footer>
   </body>
 </html>
