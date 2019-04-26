@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function() {
     devil_div.addEventListener('click', function () {
       game("dev");
     })
-    lightninh_div.addEventListener('click', function () {
+    lightning_div.addEventListener('click', function () {
       game("l");
     })
     gun_div.addEventListener('click', function () {

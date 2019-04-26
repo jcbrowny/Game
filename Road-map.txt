@@ -31,15 +31,16 @@ Finished:
     made the instructions and control page
     added the choices and counters Diagram
     added music
+    impliment hard and ex modes
 
 To do
   today:
-  impliment hard and ex modes
   readme needs to be typed out
 
 
   stuff left
     needed:
+
     optional:
     make it look nicer?
 
