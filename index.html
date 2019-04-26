@@ -10,14 +10,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <!-- Local js & css-->
-    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/app1.js" charset="utf-8"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
       <h1>Rock Paper Scissors</h1>
     </header>
+    <button id="play">Time to duel
+      <audio id="sound"src="audio/its-time-to-duel.mp3">
 
+      </audio>
+    </button>
     <div class="score-board">
       <div id="user-label" class="badge">User</div>
       <div id="computer-label" class="badge">Comp</div>
@@ -55,9 +59,9 @@
       <div class="container">
 
         <nav class="navbar fixed-bottom navbar-light bg-light">
-            <button class="btn btn-sm btn-outline-success" type="button"><a href="pages/page1.html">Hard</a> </button>
+            <a href="pages/page1.html"><button class="btn btn-sm btn-outline-success" type="button">Hard</button></a>
             <form class="form-inline">
-            <button class="btn btn-sm btn-outline-success" type="button"> <a href="pages/page2.html">Extreme</a> </button>
+            <a href="pages/page2.html"><button class="btn btn-sm btn-outline-success" type="button">Extreme </button></a>
           </form>
         </nav>
 

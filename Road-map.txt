@@ -28,8 +28,22 @@ Finished:
   weekend:
     made the basic version of the game
     encountered some difficulty but made it work
+    made the instructions and control page
+    added the choices and counters Diagram
+    added music
 
 To do
-  Monday:
-    make the instructions and control page
-    
+  today:
+  impliment hard and ex modes
+  readme needs to be typed out
+
+
+  stuff left
+    needed:
+    optional:
+    make it look nicer?
+
+by end of friday:
+push code up to git hub
+make sure the readme is Finished
+go to git hub and make the avaiable on the internet
